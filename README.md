@@ -1,22 +1,51 @@
 # Deep Learning Architectures
 
-Implementations and experiments with neural network architectures such as MLPs, CNNs and Transformers using PyTorch.
+Implementation of core deep learning architectures from scratch and using PyTorch, including CNNs, RNNs, LSTMs, Transformers, GANs, VAEs and GNNs.
+
+---
 
 ## Overview
 
-This repository gathers a set of deep learning labs focused on implementing and training different neural network architectures.
+This repository contains a collection of practical implementations of fundamental neural network architectures developed as part of applied deep learning labs.
 
-The goal of the project is not to build a benchmark or production-ready system, but to understand how different model families behave during training and how their architectural differences affect learning.
+The focus is on:
+- Understanding internal mechanics of each architecture
+- Implementing key components from scratch (e.g. convolution, RNN/LSTM cells, self-attention)
+- Training models on controlled tasks and datasets
 
-## Contents
+This is not a benchmark or production-oriented repository, but a technical exploration of model design and behavior.
 
-This repository will include:
-- MLP-based models
-- CNN-based models
-- Transformer-based models
-- Training scripts and experiments
-- Basic observations about architecture behavior
+---
 
-## Tech Stack
+## Architectures
 
-Python · PyTorch · NumPy
+### Convolutional Neural Networks (CNN)
+- Naive 2D convolution layer implemented from scratch
+- Understanding of convolution mechanics and feature extraction
+
+### Recurrent Neural Networks (RNN / LSTM)
+- RNN cell implemented from scratch
+- LSTM cell with gating mechanisms (input, forget, output)
+- Sequence modeling on synthetic time-series data
+
+### Transformers
+- Self-attention mechanism implemented manually
+- Transformer encoder applied to sequence classification tasks
+
+### Generative Models
+
+#### Generative Adversarial Networks (GAN)
+- Toy GAN for understanding adversarial training dynamics
+- MNIST-based generation experiments
+
+#### Variational Autoencoders (VAE)
+- VAE implementation with latent variable modeling
+- Trained on MNIST for representation learning and generation
+
+### Graph Neural Networks (GNN)
+- Graph learning using PyTorch Geometric
+- Experiments on Open Graph Benchmark (OGB) datasets
+
+---
+
+## Repository Structure
